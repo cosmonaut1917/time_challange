@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highscores</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="highscore.js"></script>
-    <title>Javascript timed challange - High scores!</title>
 </head>
 <body>
-    <div class="scores">
-        <h1>High scores:</h1>
-        <ol id="highscores"></ol>
-        <a href="index.html">
-        <button>retry</button>
-    </a>
-    <button id="clear">Clear scores</button>
+    <div id="score">
+        <h1>high scores</h1>
+        <a href="./index.html">
+            <button>retry</button>
+        </a>
+        <button id="clear">clear scores</button>
+        <input id="initials" type="text">
+        <button class="submit">submit</button>
+        <li id="score_display"></li>
     </div>
 </body>
+<script src="./highscore.js"></script>
 </html>

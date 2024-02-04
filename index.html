@@ -7,36 +7,44 @@
     <title>Javascript time challange</title>
 </head>
 <header>Javascript Timed challange</header>
+
 <body>
-    <button id="Start_btn">Start</button> 
-    <!-- will start the timer -->
-    <a href="highscore.html">
-    <button id="High_scores">High Scores</button>
-</a>
-    <h1 id="Rules">Rules</h1>
-    <p id="rule_1">You will have 2 minutes to answer 5 question<br>
-    Each time you answer correctly youll move on to the next question<br>
-    Each time you miss an answer youll lose 5 seconds<br>
-    Time ends when you have answered all questions correctly or time runs out</p>
-<div class="hide" id="questions">
-    <h2 id="Question-2"></h2>
-    <div class="choices" id="choices">
+    <div id="Intro">
+        <button id="start_btn">Start</button>
+        <!-- will start the timer -->
+        <a href="highscore.html">
+            <button id="High_scores">High Scores</button>
+        </a>
+        <h1 id="Rules">Rules</h1>
+        <p id="rule_1">You will have 2 minutes to answer 5 question<br>
+            Each time you answer correctly youll move on to the next question<br>
+            Each time you miss an answer youll lose 5 seconds<br>
+            Time ends when you have answered all questions correctly or time runs out</p>
     </div>
-</div>
-<div class="hide" id="quiz_end">
-    <h2>Done!</h2>
-    <p>Score:
-        <span id="score_total">
-        </span>
-    </p>
-    <p id="score_name">claim your score!
-        <input type="text"
-        id="name"
-        max="8"/>
-        <button id="submit">Submit</button>
-        <!-- submit button -->
-    </p>
-</div>
-<script src="index.js"></script>
+    <div id="time_limit"></div>
+    <div class="hide" id="questions">
+        <h2 id="question_2">question goes here</h2>
+        <div class="choices" id="choices">
+        </div>
+    </div>
+    <div class="hide" id="quiz_end"> 
+        <!-- i forgot what this does so lets hope this doesnt break it lol -->
+        <!-- <h2>Done!</h2>
+        <p>Score: -->
+            <span id="score_total">
+            </span>
+        </p>
+        <p id="score_name">claim your score!
+            <input type="text" id="name" max="8" />
+            <button id="submit">Submit</button>
+            <!-- submit button -->
+        </p>
+        <div class="hide" id="home">
+<button>continue</button>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
 </body>
+
 </html>
