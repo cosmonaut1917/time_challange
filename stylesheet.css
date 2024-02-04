@@ -1,3 +1,8 @@
 .hide{
     display: none;
 }
+
+.score_display{
+    list-style: decimal;
+    container-type: box;
+}
