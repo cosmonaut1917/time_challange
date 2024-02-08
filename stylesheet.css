@@ -1,8 +1,96 @@
-.hide{
+.hide {
     display: none;
 }
+/* index css */
+body {
+    background-color: burlywood;
+}
 
-.score_display{
+#start_btn {
+    background-color: skyblue;
+    box-shadow: 15px;
+    font-size: large;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+}
+
+#High_scores {
+    background-color: skyblue;
+    box-shadow: 15px;
+    font-size: large;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+.score_display {
     list-style: decimal;
-    container-type: box;
+    
+}
+
+#rule_1 {
+    background-color: white;
+    /* width: 300px; */
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-indent: 25px;
+    line-height: 50px;
+    font-size: larger;
+    font-style: bold;
+}
+#Rules {
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+header{
+    background-color: white;
+    font-size: xx-large;
+    font-style: bold;
+    
+}
+/* end index css */
+/* highscore css */
+#score{
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: relative;
+}
+#retry{
+    background-color: skyblue;
+    box-shadow: 15px;
+    font-size: large;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    float: left 50px;
+}
+.submit{
+    background-color: skyblue;
+    box-shadow: 15px;
+    font-size: large;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    float: inline-start;
+
+}
+#clear{
+    background-color: skyblue;
+    box-shadow: 15px;
+    font-size: large;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    position: absolute,;
+    float: inline-end;
 }

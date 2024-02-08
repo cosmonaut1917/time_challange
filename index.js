@@ -7,7 +7,7 @@ var position = 0
 var question_2 = document.getElementById('question_2')
 var choices = document.getElementById('choices')
 var home_BTN = document.getElementById('home_BTN')
-var time_limit = 300
+var time_limit = 120
 var countdown;
 var answers = [
     {
@@ -63,7 +63,7 @@ function check_answer() {
     if (this.textContent === answers[position].correct_option) {
         alert('correct!')
     } else {
-        time_limit -= 5
+        time_limit -= 10
         alert('incorrect!')
     }
     position++
@@ -97,6 +97,6 @@ function timer() {
 
 
 // todo: 
-//add return to start button
-// add css
-//add way to see scores and set em in local stoarge
+//
+// 
+//
